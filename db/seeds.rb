@@ -1,15 +1,28 @@
-Bird.destroy_all 
+
 
 Bird.create(
-  name: "Charlie" 
+  name: "Charlie"
+  # tree_id: 1
 )
 
 Bird.create(
   name: "Pikachu"
+  # tree_id: 2
 )
 
 Bird.create(
-  name: "Sunny" 
+  name: "Sunny"
+  # tree_id: 3
 )
 
+Tree.create(
+  name: "Aspen"
+)
 
+Tree.create(
+  name: "Pine"
+)
+
+Tree.create(
+name: "Redwood"
+)
